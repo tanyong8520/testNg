@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite1">
+    <test name="test" preserve-order="true">
+        <classes>
+            <!-- 测试用例 -->
+            <class name="net.tany.test.testFlow"></class>
+        </classes>
+        <listeners>
+            <listener class-name="net.tany.TestListener" />
+            <listener class-name="org.uncommons.reportng.HTMLReporter" />
+            <listener class-name="org.uncommons.reportng.JUnitXMLReporter" />
+        </listeners>
+    </test>
+</suite>
